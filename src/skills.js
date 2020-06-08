@@ -8,9 +8,7 @@ function Skills() {
                 data.map((data, i) => {
                     return (
                         <div key={i}>
-                            <div>
                                 <p>{data.name}</p>
-                            </div>
                         </div>
                     );
                 })
