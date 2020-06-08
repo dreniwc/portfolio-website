@@ -1,7 +1,5 @@
 import React from 'react';
-import './app.scss';
-import Hello from "./hello"
-import Skills from "./skills"
+import '../Styles/app.scss'
 import Navbar from "./navbar"
 import Main from "./main"
 
