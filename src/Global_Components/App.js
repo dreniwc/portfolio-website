@@ -6,8 +6,10 @@ import Main from "./main"
 function App() {
   return (
     <div className="App">
-      <h1>Testing</h1>
-      <Navbar />
+      <header role="banner">
+        <h1>Callum Dreniw</h1>
+        <Navbar />
+      </header>
       <Main />
     </div>
   );
