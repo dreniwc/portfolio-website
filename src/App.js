@@ -6,15 +6,12 @@ import Skills from "./skills"
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
       <header>
         <h1>Callum Dreniw</h1>
       </header>
       <section>
-        <p>test</p>
-        <Hello />
+        <p>Skills</p>
         <Skills />
-        <p>after</p>
       </section>
     </div>
   );
