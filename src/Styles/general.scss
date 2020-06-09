@@ -28,7 +28,7 @@ nav ul li a.active {
 }
 
 .headerLogo_image svg {
-    height: 110px;
+    height: 60px;
 }
 
 .headerLogo {
@@ -57,4 +57,25 @@ nav ul li a.active {
 nav {
     display: flex;
     align-items: center;
+}
+
+.hero_outerContainer {
+    background: #42DCA3;
+}
+
+.hero_outerContainer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.hero_right svg {
+    height: 200px;
+}
+
+.hero_left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
 }

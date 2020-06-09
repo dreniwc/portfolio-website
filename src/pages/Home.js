@@ -1,13 +1,21 @@
 import React from 'react';
+import { ReactComponent as CDLogoDark } from '../Assets/logo_light.svg';
 
 function Home() {
     return (
         <section id="homepage_about">
             <div className="hero_outerContainer">
                 <div className="container">
-                    <h2>Callum Dreniw</h2>
-                    <h3>Web Developer, Designer And Optimisation Specialist</h3>
-                    <h4>Working with user experience and accessibility at the forefront of my work.</h4>
+                    <div className="hero_left">
+                        <div className="hero_left-inner">
+                            <h2>Callum Dreniw</h2>
+                            <h3>Web Developer, Designer And Optimisation Specialist</h3>
+                            <h4>Working with user experience and accessibility at the forefront of my work.</h4>
+                        </div>
+                    </div>
+                    <div className="hero_right">
+                        <CDLogoDark />
+                    </div>
                 </div>
             </div>
             <div>
