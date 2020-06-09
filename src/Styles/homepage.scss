@@ -1,0 +1,29 @@
+.hero_outerContainer {
+    border-bottom: 2px solid $green;
+}
+
+.hero_outerContainer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+
+.hero_right svg {
+    height: 200px;
+}
+
+.hero_left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.homeIntro {
+    margin: 20px 0px;
+    padding-bottom: 10px;
+}
+
+.homeIntro p {
+    margin-bottom: 10px;
+}
