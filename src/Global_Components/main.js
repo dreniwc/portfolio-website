@@ -8,12 +8,14 @@ import Contact from '../pages/contact/Contact';
 
 const Main = () => {
   return (
-    <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/about' component={About}></Route>
-      <Route exact path='/portfolio' component={Portfolio}></Route>
-      <Route exact path='/contact' component={Contact}></Route>
-    </Switch>
+    <main role="main" id="skipnav">
+      <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+        <Route exact path='/' component={Home}></Route>
+        <Route exact path='/about' component={About}></Route>
+        <Route exact path='/portfolio' component={Portfolio}></Route>
+        <Route exact path='/contact' component={Contact}></Route>
+      </Switch>
+    </main >
   );
 }
 

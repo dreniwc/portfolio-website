@@ -8,9 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main role="main" id="skipnav">
-        <Main />
-      </main>
+      <Main />
       <Footer />
     </div>
   );
