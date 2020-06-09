@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as CDLogoDark } from '../Assets/logo_light.svg';
+import { ReactComponent as CDLogoWhite} from '../Assets/logoWhite.svg';
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="hero_right">
-                        <CDLogoDark />
+                        <CDLogoWhite />
                     </div>
                 </div>
             </div>
