@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a.active {
+    color: red;
+}

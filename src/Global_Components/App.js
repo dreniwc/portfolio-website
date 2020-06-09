@@ -8,10 +8,14 @@ function App() {
   return (
     <div className="App">
       <header role="banner">
-        <h1>Callum Dreniw</h1>
-        <Navbar />
+        <div className="container">
+          <h1>Callum Dreniw</h1>
+          <Navbar />
+        </div>
       </header>
-      <Main />
+      <main role="main" id="skipnav">
+        <Main />
+      </main>
       <Footer />
     </div>
   );

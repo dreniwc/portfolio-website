@@ -10,9 +10,11 @@ function About() {
             <p>I conduct vast amounts of A/B tests for a variety of the UK’s biggest companies in multiple markets; all aiming to improve their Key Performance Indicators.</p>
 
             <p>User Experience and Data Analytics are of the utmost importance relating to the optimisation of the client’s websites; resulting in a high standard of efficiency and effectiveness throughout the working process.</p>
-            
+
             <p>Skills</p>
             <Skills />
+
+            <p>Experience</p>
         </div>
     )
 }
