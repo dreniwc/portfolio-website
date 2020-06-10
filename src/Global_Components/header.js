@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "./navbar"
-import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
+import { ReactComponent as CDLogoWhite } from '../Assets/logoWhite.svg';
 
 function Header() {
     return (
@@ -8,7 +8,7 @@ function Header() {
             <div className="container">
                 <div className="headerLogo">
                     <div className="headerLogo_image">
-                        <CDLogoBlack />
+                        <CDLogoWhite />
                     </div>
                     <div className="headerLogo_name">
                         <div className="headerLogo_name-inner">

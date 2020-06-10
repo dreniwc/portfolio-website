@@ -1,16 +1,10 @@
-.hero_outerContainer {
-    background-color: $green;
-    color: #fff;
-}
-
 .hero_outerContainer .container {
-    padding: 20px 0px;
+    padding: 40px 0px;
     margin-bottom: 20px;
 }
 
 .homeIntro {
     margin: 20px 0px;
-    padding-bottom: 10px;
 }
 
 .homeIntro p {
@@ -27,25 +21,60 @@
     margin-top: 20px;
 }
 
-.homeSections {
-    background: #003366;
-    padding: 20px 0;
+.hero_copy-inner h3 {
+    font-size: 40px;
 }
 
-.homeSections > div {
+.hero_copy-inner h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.quickIntro {
+    background: $lightBlue;
     color: white;
+    padding: 10px 0;
+    padding-bottom: 60px;
+}
+
+.homeSections {
+    margin-bottom: 40px;
 }
 
 .home_innerContainer {
     display: flex;
     justify-content: space-around;
-    background: #005a9c;
-    margin-top: -40px;
+    background: $white;
+    margin-top: -60px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .home_innerContainer > div {
-    width: 30%;
+    flex-grow: 1;
     padding: 10px;
+}
+
+.homePortfolio.centre {
+    border-left: 1px solid #003366;
+    border-right: 1px solid #003366;
+}
+
+.homeTopHeaderContainer {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.section-button {
+    text-align: center;
+}
+
+.section-button .btn {
+    background: #005a6a;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
 }

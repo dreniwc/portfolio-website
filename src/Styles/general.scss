@@ -6,6 +6,8 @@
 
 header {
     padding: 20px 0;
+    background: $darkBlue;
+    color: $white;
 }
 
 header .container {
@@ -26,6 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: $white;
 }
 
 nav ul li a.active {
@@ -65,7 +68,5 @@ nav {
 }
 
 footer {
-    color: white;
-    background:$green;
     padding: 10px;
 }
