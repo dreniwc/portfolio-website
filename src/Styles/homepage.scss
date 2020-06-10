@@ -1,22 +1,11 @@
 .hero_outerContainer {
-    border-bottom: 2px solid $green;
+    background-color: $green;
+    color: #fff;
 }
 
 .hero_outerContainer .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0px;
+    padding: 20px 0px;
     margin-bottom: 20px;
-}
-
-.hero_right svg {
-    height: 200px;
-}
-
-.hero_left {
-    display: flex;
-    align-items: center;
-    text-align: left;
 }
 
 .homeIntro {
@@ -26,4 +15,14 @@
 
 .homeIntro p {
     margin-bottom: 10px;
+}
+
+.hero_logo {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.hero_copy-inner {
+    text-align: center;
+    margin-top: 20px;
 }
