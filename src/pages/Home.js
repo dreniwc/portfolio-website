@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as CDLogoWhite } from '../Assets/logoWhite.svg';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -35,11 +36,12 @@ function Home() {
                                 <p>About Me</p>
                             </div>
                             <div className="homeRightContainer">
-                                <p>Find out More</p>
+                                <p>Find out more about:</p>
                                 <p>My skills</p>
                                 <p>My experince</p>
-                                <p>etc</p>
-                                <p>CTA</p>
+                                <Link to='/about'>
+                                    <button className="btn btn-default">See more about me</button>
+                                </Link>
                             </div>
                         </div>
                         <div className="homePortfolio">
@@ -49,7 +51,9 @@ function Home() {
                             <div className="homeRightContainer">
                                 <p>i've done</p>
                                 <p>etc</p>
-                                <p>CTA</p>
+                                <Link to='/portfolio'>
+                                    <button className="btn btn-default">See my portfolio</button>
+                                </Link>
                             </div>
                         </div>
                         <div className="homeContact">
@@ -60,7 +64,9 @@ function Home() {
                                 <p>FOrm</p>
                                 <p>EMail</p>
                                 <p>etc</p>
-                                <p>CTA</p>
+                                <Link to='/contact'>
+                                    <button className="btn btn-default">See my contact details</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
