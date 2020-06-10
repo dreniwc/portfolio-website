@@ -53,6 +53,11 @@
 .home_innerContainer > div {
     flex-grow: 1;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 0;
 }
 
 .homePortfolio.centre {
@@ -60,7 +65,7 @@
     border-right: 1px solid #003366;
 }
 
-.homeTopHeaderContainer {
+.section-header {
     text-align: center;
     font-weight: bold;
     padding: 10px;

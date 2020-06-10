@@ -38,14 +38,17 @@ function Home() {
                         <div className="home_innerContainer">
                             <div className="homeAbout">
                                 <div className="homeTopHeaderContainer">
-                                    <p>About Me</p>
-                                </div>
-                                <div className="homeBottomContainer">
+                                    <div className="section-header">
+                                        <p>About Me</p>
+                                    </div>
                                     <div className="section-Content">
                                         <p>Find out more about:</p>
-                                        <p>My skills</p>
+                                        <p>My development skills</p>
+                                        <p>My design, data &amp; reserch skills</p>
                                         <p>My experince</p>
                                     </div>
+                                </div>
+                                <div className="homeBottomContainer">
                                     <div className="section-button">
                                         <Link to='/about'>
                                             <button className="btn btn-default">See more about me</button>
@@ -55,13 +58,16 @@ function Home() {
                             </div>
                             <div className="homePortfolio centre">
                                 <div className="homeTopHeaderContainer">
-                                    <p>View my work</p>
+                                    <div className="section-header">
+                                        <p>View my work</p>
+                                    </div>
+                                    <div className="section-Content">
+                                        <p>ReactJS Project</p>
+                                        <p>University website</p>
+                                        <p>any more...</p>
+                                    </div>
                                 </div>
                                 <div className="homeBottomContainer">
-                                    <div className="section-Content">
-                                        <p>i've done</p>
-                                        <p>etc</p>
-                                    </div>
                                     <div className="section-button">
                                         <Link to='/portfolio'>
                                             <button className="btn btn-default">See my portfolio</button>
@@ -71,14 +77,14 @@ function Home() {
                             </div>
                             <div className="homeContact">
                                 <div className="homeTopHeaderContainer">
-                                    <p>Contact Me</p>
+                                    <div className="section-header">
+                                        <p>Contact Me</p>
+                                    </div>
+                                    <div className="section-Content">
+                                        <p>If you would like to talk through a project or opportunity feel free to contact me</p>
+                                    </div>
                                 </div>
                                 <div className="homeBottomContainer">
-                                    <div className="section-Content">
-                                        <p>FOrm</p>
-                                        <p>EMail</p>
-                                        <p>etc</p>
-                                    </div>
                                     <div className="section-button">
                                         <Link to='/contact'>
                                             <button className="btn btn-default">See my contact details</button>
