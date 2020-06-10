@@ -26,3 +26,26 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.homeSections {
+    background: #003366;
+    padding: 20px 0;
+}
+
+.homeSections > div {
+    color: white;
+}
+
+.home_innerContainer {
+    display: flex;
+    justify-content: space-around;
+    background: #005a9c;
+    margin-top: -40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.home_innerContainer > div {
+    width: 30%;
+    padding: 10px;
+}
