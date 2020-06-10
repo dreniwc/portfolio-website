@@ -30,7 +30,7 @@
 }
 
 .quickIntro {
-    background: $lightBlue;
+    background: #005a6a;
     color: white;
     padding: 30px 0 80px;
 }
@@ -51,7 +51,7 @@
 
 .home_innerContainer > div {
     flex-grow: 1;
-    padding: 10px;
+    padding: 20px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -74,8 +74,12 @@
     text-align: center;
 }
 
+.section-Content {
+    margin: 20px 0;
+}
+
 .section-button .btn {
-    background: #005a6a;
+    background: #003366;
     border: none;
     color: white;
     padding: 10px;

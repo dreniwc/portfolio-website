@@ -6,8 +6,7 @@
 
 header {
     padding: 20px 0;
-    background: $darkBlue;
-    color: $white;
+    border-bottom: 5px solid $green;
 }
 
 header .container {
@@ -28,7 +27,6 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: $white;
 }
 
 nav ul li a.active {
