@@ -1,8 +1,10 @@
 import React from 'react';
 import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import Footer from "../Global_Components/footer"
+
+// import Homesubsection from "./home/homeSubSections"
 
 function Home() {
     return (
@@ -37,68 +39,7 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className="homeSections">
-                            <div className="container">
-                                <div className="home_innerContainer">
-                                    <div className="homeAbout">
-                                        <div className="homeTopHeaderContainer">
-                                            <div className="section-header">
-                                                <p>About Me</p>
-                                            </div>
-                                            <div className="section-Content">
-                                                <p>Find out more about:</p>
-                                                <p>My development skills</p>
-                                                <p>My design, data &amp; reserch skills</p>
-                                                <p>My experince</p>
-                                            </div>
-                                        </div>
-                                        <div className="homeBottomContainer">
-                                            <div className="section-button">
-                                                <Link to='/about'>
-                                                    <button className="btn btn-default">See more about me</button>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="homePortfolio centre">
-                                        <div className="homeTopHeaderContainer">
-                                            <div className="section-header">
-                                                <p>View my work</p>
-                                            </div>
-                                            <div className="section-Content">
-                                                <p>ReactJS Project</p>
-                                                <p>University website</p>
-                                                <p>any more...</p>
-                                            </div>
-                                        </div>
-                                        <div className="homeBottomContainer">
-                                            <div className="section-button">
-                                                <Link to='/portfolio'>
-                                                    <button className="btn btn-default">See my portfolio</button>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="homeContact">
-                                        <div className="homeTopHeaderContainer">
-                                            <div className="section-header">
-                                                <p>Contact Me</p>
-                                            </div>
-                                            <div className="section-Content">
-                                                <p>If you would like to talk through a project or opportunity feel free to contact me</p>
-                                            </div>
-                                        </div>
-                                        <div className="homeBottomContainer">
-                                            <div className="section-button">
-                                                <Link to='/contact'>
-                                                    <button className="btn btn-default">See my contact details</button>
-                                                </Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        {/* <Homesubsection /> */}
                     </div>
                 </section >
             </main>
