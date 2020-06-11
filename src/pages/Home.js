@@ -2,101 +2,108 @@ import React from 'react';
 import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
 import { Link } from 'react-router-dom';
 
+import Footer from "../Global_Components/footer"
+
 function Home() {
     return (
-        <section id="homepage_about">
-            <div className="hero_outerContainer">
-                <div className="container">
-                    <div className="hero_top">
-                        <div className="hero_logo">
-                            <CDLogoBlack />
+        <div className="wrapper">
+            <main role="main" id="skipnav">
+                <section id="homepage_about" className="page">
+                    <div className="hero_outerContainer">
+                        <div className="container">
+                            <div className="hero_top">
+                                <div className="hero_logo">
+                                    <CDLogoBlack />
+                                </div>
+                            </div>
+                            <div className="hero_bottom">
+                                <div className="hero_copy-inner">
+                                    <h3>Web Developer, Designer And Optimisation Specialist</h3>
+                                    <h4>Working with user experience and accessibility at the forefront of my work.</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="hero_bottom">
-                        <div className="hero_copy-inner">
-                            <h3>Web Developer, Designer And Optimisation Specialist</h3>
-                            <h4>Working with user experience and accessibility at the forefront of my work.</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div className="quickIntro">
-                    <div className="container">
-                        <div className="homeIntro">
-                            <p>Hi, I'm Callum Dreniw.</p>
-                            <p>I am a highly motivated member of the Conversion Rate Industry with a keen interest in solving problems. I relish the opportunity to learn new methods, techniques, and skills in and around my line of work. Settling for nothing less than the highest standard of work is imperative and engaging my initiative with any resources provided is of second nature to me.</p>
+                    <div>
+                        <div className="quickIntro">
+                            <div className="container">
+                                <div className="homeIntro">
+                                    <p>Hi, I'm Callum Dreniw.</p>
+                                    <p>I am a highly motivated member of the Conversion Rate Industry with a keen interest in solving problems. I relish the opportunity to learn new methods, techniques, and skills in and around my line of work. Settling for nothing less than the highest standard of work is imperative and engaging my initiative with any resources provided is of second nature to me.</p>
 
-                            <p>I conduct vast amounts of A/B tests for a variety of the UK’s biggest companies in multiple markets; all aiming to improve their Key Performance Indicators.</p>
+                                    <p>I conduct vast amounts of A/B tests for a variety of the UK’s biggest companies in multiple markets; all aiming to improve their Key Performance Indicators.</p>
 
-                            <p>User Experience and Data Analytics are of the utmost importance relating to the optimisation of the client’s websites; resulting in a high standard of efficiency and effectiveness throughout the working process.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="homeSections">
-                    <div className="container">
-                        <div className="home_innerContainer">
-                            <div className="homeAbout">
-                                <div className="homeTopHeaderContainer">
-                                    <div className="section-header">
-                                        <p>About Me</p>
-                                    </div>
-                                    <div className="section-Content">
-                                        <p>Find out more about:</p>
-                                        <p>My development skills</p>
-                                        <p>My design, data &amp; reserch skills</p>
-                                        <p>My experince</p>
-                                    </div>
-                                </div>
-                                <div className="homeBottomContainer">
-                                    <div className="section-button">
-                                        <Link to='/about'>
-                                            <button className="btn btn-default">See more about me</button>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="homePortfolio centre">
-                                <div className="homeTopHeaderContainer">
-                                    <div className="section-header">
-                                        <p>View my work</p>
-                                    </div>
-                                    <div className="section-Content">
-                                        <p>ReactJS Project</p>
-                                        <p>University website</p>
-                                        <p>any more...</p>
-                                    </div>
-                                </div>
-                                <div className="homeBottomContainer">
-                                    <div className="section-button">
-                                        <Link to='/portfolio'>
-                                            <button className="btn btn-default">See my portfolio</button>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="homeContact">
-                                <div className="homeTopHeaderContainer">
-                                    <div className="section-header">
-                                        <p>Contact Me</p>
-                                    </div>
-                                    <div className="section-Content">
-                                        <p>If you would like to talk through a project or opportunity feel free to contact me</p>
-                                    </div>
-                                </div>
-                                <div className="homeBottomContainer">
-                                    <div className="section-button">
-                                        <Link to='/contact'>
-                                            <button className="btn btn-default">See my contact details</button>
-                                        </Link>
-                                    </div>
+                                    <p>User Experience and Data Analytics are of the utmost importance relating to the optimisation of the client’s websites; resulting in a high standard of efficiency and effectiveness throughout the working process.</p>
                                 </div>
                             </div>
                         </div>
+                        <div className="homeSections">
+                            <div className="container">
+                                <div className="home_innerContainer">
+                                    <div className="homeAbout">
+                                        <div className="homeTopHeaderContainer">
+                                            <div className="section-header">
+                                                <p>About Me</p>
+                                            </div>
+                                            <div className="section-Content">
+                                                <p>Find out more about:</p>
+                                                <p>My development skills</p>
+                                                <p>My design, data &amp; reserch skills</p>
+                                                <p>My experince</p>
+                                            </div>
+                                        </div>
+                                        <div className="homeBottomContainer">
+                                            <div className="section-button">
+                                                <Link to='/about'>
+                                                    <button className="btn btn-default">See more about me</button>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="homePortfolio centre">
+                                        <div className="homeTopHeaderContainer">
+                                            <div className="section-header">
+                                                <p>View my work</p>
+                                            </div>
+                                            <div className="section-Content">
+                                                <p>ReactJS Project</p>
+                                                <p>University website</p>
+                                                <p>any more...</p>
+                                            </div>
+                                        </div>
+                                        <div className="homeBottomContainer">
+                                            <div className="section-button">
+                                                <Link to='/portfolio'>
+                                                    <button className="btn btn-default">See my portfolio</button>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="homeContact">
+                                        <div className="homeTopHeaderContainer">
+                                            <div className="section-header">
+                                                <p>Contact Me</p>
+                                            </div>
+                                            <div className="section-Content">
+                                                <p>If you would like to talk through a project or opportunity feel free to contact me</p>
+                                            </div>
+                                        </div>
+                                        <div className="homeBottomContainer">
+                                            <div className="section-button">
+                                                <Link to='/contact'>
+                                                    <button className="btn btn-default">See my contact details</button>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section >
+                </section >
+            </main>
+            <Footer />
+        </div>
     )
 }
 

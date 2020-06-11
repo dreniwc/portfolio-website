@@ -3,7 +3,7 @@ import data from "./skills.json"
 
 function Skills() {
     return (
-        <div>
+        <div className="page">
             {
                 data.map((data, i) => {
                     return (
