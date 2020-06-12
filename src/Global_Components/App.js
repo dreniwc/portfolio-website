@@ -24,6 +24,7 @@ function App() {
   const [theme, themeToggler, mountedComponent] = useDarkMode();
 
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  if(!mountedComponent) return <div/>
   return (
     <ThemeProvider theme={themeMode}>
       <>
