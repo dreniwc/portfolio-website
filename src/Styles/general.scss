@@ -81,6 +81,11 @@ footer {
     position: relative;
 }
 
+.themeSwitcher-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* simple - enter transition 300ms, exit 150ms */
 .fade-appear,
 .fade-enter {
