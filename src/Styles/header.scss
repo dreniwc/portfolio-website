@@ -1,12 +1,18 @@
 header {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 5px solid;
+}
+
+.headerLogo_image {
+    display: flex;
+    align-items: center;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -40,13 +46,14 @@ nav ul li a.active {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-weight: bold;
 }
 
-.headerLogo_name h2 {
+.headerLogo_name p.headerSubCopy {
     font-size: 16px;
 }
 
-.headerLogo_name h1 {
+.headerLogo_name p.headerName {
     font-size: 20px;
 }
 
@@ -60,6 +67,25 @@ nav {
 }
 
 .themeSwitcher-container {
-    display: flex;
-    justify-content: flex-end;
+    margin-top: 5px;
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    button {
+        min-width: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .themeSwitcher-container {
+        .container {
+            justify-content: center;
+        }
+        
+    }
+
+    nav {
+        margin-top: 10px;
+    }
 }

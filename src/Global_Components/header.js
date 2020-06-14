@@ -12,8 +12,8 @@ function Header() {
                     </div>
                     <div className="headerLogo_name">
                         <div className="headerLogo_name-inner">
-                            <h1>Callum Dreniw</h1>
-                            <h2>Web Developer, Designer And Optimisation Specialist</h2>
+                            <p className="headerName">Callum Dreniw</p>
+                            <p className="headerSubCopy">Web Developer, Designer And Optimisation Specialist</p>
                         </div>
                     </div>
                 </div>

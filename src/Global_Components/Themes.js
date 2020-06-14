@@ -1,9 +1,8 @@
 export const lightTheme = {
     body: '#fafafc',
     text: '#363537',
-    buttonText: '#FFFFFF',
-    toggleBorder: '#FFF',
-    background: '#363537',
+    toggleBorder: '#363537',
+    background: '#fafafc',
     secondaryBackground: '#005a6a',
     secondaryText: '#FFFFFF',
     svgBlack: '#000',
@@ -12,8 +11,8 @@ export const lightTheme = {
 export const darkTheme = {
     body: '#363537',
     text: '#FAFAFA',
-    toggleBorder: '#6B8096',
-    background: '#999',
+    toggleBorder: '#FFFFFF',
+    background: '#363537',
     secondaryBackground: '#403e41',
     secondaryText: '#FFFFFF',
     svgBlack: '#FFFFFF',

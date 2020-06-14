@@ -20,8 +20,8 @@ function Home() {
                             </div>
                             <div className="hero_bottom">
                                 <div className="hero_copy-inner">
-                                    <h3>Web Developer, Designer And Optimisation Specialist</h3>
-                                    <h4>Working with user experience and accessibility at the forefront of my work.</h4>
+                                    <h1>Web Developer, Designer And Optimisation Specialist</h1>
+                                    <h2>Working with user experience and accessibility at the forefront of my work.</h2>
                                 </div>
                             </div>
                         </div>
