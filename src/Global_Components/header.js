@@ -4,7 +4,7 @@ import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
 
 function Header() {
     return (
-        <header role="banner">
+        <header role="banner" className="borderColour">
             <div className="container">
                 <div className="headerLogo">
                     <div className="headerLogo_image">
