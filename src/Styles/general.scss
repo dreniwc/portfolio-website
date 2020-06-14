@@ -4,87 +4,15 @@
     margin: 0 auto;
 }
 
-header {
-    padding: 20px 0;
-    border-bottom: 5px solid $green;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    padding: 10px;
-    font-weight: bold;
-}
-
-nav ul li a {
-    text-decoration: none;
-}
-
-nav ul li a.active {
-    text-decoration: underline;
-}
-
-.headerLogo_image svg {
-    height: 60px;
-}
-
-.headerLogo {
-    display: flex;
-}
-
-.headerLogo_name {
-    padding-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.headerLogo_name h2 {
-    font-size: 16px;
-}
-
-.headerLogo_name h1 {
-    font-size: 20px;
-}
-
-.headerLogo_name-inner {
-    text-align: left;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-}
-
-footer {
-    padding: 10px;
-    text-align: center;
-    border-top: 5px solid #005a6a;
-}
-
 .wrapper {
     position: absolute;
     left: 0;
     right: 0;
 }
 
-.App > div {
-    position: relative;
-}
-
-.themeSwitcher-container {
-    display: flex;
-    justify-content: flex-end;
-}
+// .App > div {
+//     position: relative;
+// }
 
 /* simple - enter transition 300ms, exit 150ms */
 .fade-appear,
