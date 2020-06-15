@@ -6,7 +6,7 @@ import Footer from "../Global_Components/footer"
 
 // import Homesubsection from "./home/homeSubSections"
 
-function Home() {
+function Home({ user }) {
     return (
         <div className="wrapper">
             <main role="main" id="skipnav">
@@ -20,8 +20,8 @@ function Home() {
                             </div>
                             <div className="hero_bottom">
                                 <div className="hero_copy-inner">
-                                    <h1>Web Developer, Designer And Optimisation Specialist</h1>
-                                    <h2>Working with user experience and accessibility at the forefront of my work.</h2>
+                                    <h1>{user.basics.headline}</h1>
+                                    <h2>{user.basics.summary}</h2>
                                 </div>
                             </div>
                         </div>

@@ -19,7 +19,10 @@ import Home from '../pages/Home';
 import About from '../pages/about/about';
 import Contact from '../pages/contact/Contact';
 
+import userAbout from "../aboutMe.json"
+
 function App() {
+  const user = userAbout;
   const [theme, themeToggler, mountedComponent] = useDarkMode();
 
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
@@ -39,9 +42,9 @@ function App() {
                 classNames="fade"
               >
                 <Switch location={location}> {/* The Switch decides which component to show based on the current URL.*/}
-                  <Route exact path='/' component={Home}></Route>
-                  <Route exact path='/about' component={About}></Route>
-                  <Route exact path='/contact' component={Contact}></Route>
+                  <Route exact path='/' component={() => (<Home user={user} />)}></Route>
+                  <Route exact path='/about' component={About} ></Route>
+                  <Route exact path='/contact' component={Contact} ></Route>
                 </Switch>
               </CSSTransition>
             </TransitionGroup>

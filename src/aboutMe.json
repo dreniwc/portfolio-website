@@ -1,186 +1,100 @@
 {
     "basics": {
-        "name": "Richard Hendricks",
-        "picture": "https://avatars0.githubusercontent.com/u/58340587?v=4",
-        "label": "CEO @piedpiper",
-        "headline": "Building decentralized internet for everyone",
-        "summary": "CEO of Pied Piper and working on a decentralized internet for everyone - PiperNet. PiperNet is powered by your devices, protective of your privacy, and programmed for your freedom.\n\nToday’s web is an Internet of Kings, dominated by monopolies that crush innovation and promote surveillance capitalism. Discover for yourself why we need PiperNet, the Internet of People™.",
-        "website": "http://www.piedpiper.com",
-        "blog": "https://levelup.gitconnected.com",
-        "yearsOfExperience": 10,
-        "id": "817c6e40-54a4-4212-890b-3bd5a1788f61",
-        "username": "richard-hendricks-demo",
-        "karma": 24,
-        "email": "",
-        "region": "Silicon Valley, CA",
+        "name": "Callum Dreniw",
+        "picture": "##",
+        "label": "Senior Optimisation Executive",
+        "headline": "Web Developer, Designer And Optimisation Specialist",
+        "summary": "Working with user experience and accessibility at the forefront of my work.",
+        "website": "http://callumdreniw.co.uk/",
+        "yearsOfExperience": 4,
+        "email": "callumdreniw@outlook.com",
+        "region": "Manchester, UK",
         "location": {},
         "phone": "",
-        "followers": 1,
-        "following": 0,
         "profiles": [
             {
-                "network": "gitconnected",
-                "username": "richard-hendricks-demo",
-                "url": "https://gitconnected.com/richard-hendricks-demo"
+                "network": "LinkedIn",
+                "username": "callum-dreniw",
+                "url": "http://uk.linkedin.com/pub/callum-dreniw/"
             },
             {
                 "network": "GitHub",
-                "username": "richard-hendricks-demo",
-                "url": "https://github.com/richard-hendricks-demo"
+                "username": "dreniwc",
+                "url": "https://github.com/dreniwc/"
             },
             {
                 "network": "Twitter",
-                "url": "https://twitter.com/@piedpiper",
-                "username": "@piedpiper"
+                "url": "https://www.twitter.com/callumdreniw",
+                "username": "@callumdreniw"
             }
         ]
     },
     "skills": [
         {
-            "name": "C",
-            "level": "Expert",
-            "rating": 5,
-            "yearsOfExperience": 10,
-            "keywords": []
+            "name": "HTML"
         },
         {
-            "name": "Golang",
-            "level": "Intermediate",
-            "rating": 3,
-            "yearsOfExperience": 4,
-            "keywords": []
+            "name": "CSS3"
         },
         {
-            "name": "Java",
-            "level": "Advanced",
-            "rating": 4,
-            "yearsOfExperience": 8,
-            "keywords": []
+            "name": "SASS"
         },
         {
-            "name": "TypeScript",
-            "level": "Advanced",
-            "rating": 4,
-            "yearsOfExperience": 3,
-            "keywords": []
+            "name": "JavaScript"
         },
         {
-            "name": "React",
-            "level": "Beginner",
-            "rating": 2,
-            "yearsOfExperience": 1,
-            "keywords": []
+            "name": "React"
         }
     ],
     "projects": [
         {
-            "name": "middle-out-compression",
-            "displayName": "middle-out-compression",
+            "name": "portfoliosSite",
+            "displayName": "Portfolio Site",
             "summary": "Making files smaller",
-            "website": "http://www.hooli.xyz/",
-            "githubUrl": "https://github.com/portfolio-api-demo/middle-out-compression",
+            "website": "###",
+            "githubUrl": "###",
             "primaryLanguage": "",
             "languages": [
-                "Go",
-                "C++"
+                "HTML5",
+                "CSS"
             ],
             "libraries": [],
             "images": [
                 {
                     "resolutions": {
                         "micro": {
-                            "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-micro",
+                            "url": "##",
                             "size": 1228,
                             "width": 32,
                             "height": 22
                         },
                         "thumbnail": {
-                            "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-thumbnail",
+                            "url": "##",
                             "size": 4326,
                             "width": 224,
                             "height": 155
                         },
                         "mobile": {
-                            "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-mobile",
+                            "url": "##",
                             "size": 7821,
                             "width": 400,
                             "height": 277
                         },
                         "desktop": {
-                            "url": "https://project-images.gitconnectedcontent.com/88a0a093-c7b7-4928-a6fc-b03d174995de-desktop",
+                            "url": "##",
                             "size": 7836,
                             "width": 400,
                             "height": 277
                         }
                     }
                 }
-            ],
-            "videos": [
-                {
-                    "url": "https://www.youtube.com/watch?v=oGB_VPrld0U&list=PLTTC1K14KAxHj6AftnRUD28SQaoVauvl3",
-                    "source": "youtube",
-                    "sourceId": "oGB_VPrld0U"
-                }
-            ]
-        },
-        {
-            "name": "pied-piper-coin",
-            "displayName": "pied-piper-coin",
-            "summary": "The currency of the open web",
-            "website": "http://www.piedpiper.com/",
-            "githubUrl": "https://github.com/portfolio-api-demo/pied-piper-coin",
-            "primaryLanguage": "",
-            "languages": [
-                "TypeScript",
-                "Go"
-            ],
-            "libraries": [
-                "Node.js",
-                "React"
-            ],
-            "images": [
-                {
-                    "resolutions": {
-                        "micro": {
-                            "url": "https://project-images.gitconnectedcontent.com/d9c4429c-de9b-4678-9f32-577dfcf89a08-micro",
-                            "size": 1337,
-                            "width": 32,
-                            "height": 25
-                        },
-                        "thumbnail": {
-                            "url": "https://project-images.gitconnectedcontent.com/d9c4429c-de9b-4678-9f32-577dfcf89a08-thumbnail",
-                            "size": 8197,
-                            "width": 224,
-                            "height": 176
-                        },
-                        "mobile": {
-                            "url": "https://project-images.gitconnectedcontent.com/d9c4429c-de9b-4678-9f32-577dfcf89a08-mobile",
-                            "size": 26404,
-                            "width": 600,
-                            "height": 470
-                        },
-                        "desktop": {
-                            "url": "https://project-images.gitconnectedcontent.com/d9c4429c-de9b-4678-9f32-577dfcf89a08-desktop",
-                            "size": 28130,
-                            "width": 800,
-                            "height": 627
-                        }
-                    }
-                }
-            ],
-            "videos": [
-                {
-                    "url": "https://www.youtube.com/watch?v=4pWD2ug4kV8",
-                    "source": "youtube",
-                    "sourceId": "4pWD2ug4kV8"
-                }
             ]
         }
     ],
     "work": [
         {
-            "company": "Hendricks Venture Capital",
-            "position": "Founding Partner",
+            "company": "Dentsu Aegis Network",
+            "position": "Senior Optimisation Executive",
             "website": "https://gitconnected.com",
             "location": "San Francisco, CA",
             "summary": "We fund companies trying to change the world",
@@ -195,8 +109,8 @@
             "highlights": []
         },
         {
-            "company": "Pied Piper",
-            "position": "CEO",
+            "company": "Dentsu Aegis Network",
+            "position": "Optimisation Executive",
             "website": "http://www.piedpiper.com/",
             "location": "Silicon Valley, CA",
             "summary": "I am the CEO of PiedPiper and working on providing free and decentralized internet.",
@@ -218,8 +132,8 @@
             ]
         },
         {
-            "company": "Aviato",
-            "position": "Developer",
+            "company": "Dentsu Aegis Network",
+            "position": "Optimisation Assistant",
             "website": "",
             "location": "Fremont, CA",
             "summary": "I built the aggregation algorithm to track flights",
@@ -235,20 +149,6 @@
                 "month": 3
             },
             "highlights": []
-        }
-    ],
-    "publications": [
-        {
-            "name": "Pied Piper News",
-            "summary": "Keep up with our company news and see how we're creating a decentralized internet bring the power back to the people",
-            "publisher": "Pied Piper",
-            "website": "http://www.piedpiper.com/company-news/",
-            "releaseDate": "2019-12-01",
-            "fullReleaseDate": {
-                "year": 2019,
-                "month": 12,
-                "day": null
-            }
         }
     ],
     "education": [
@@ -305,7 +205,6 @@
             }
         }
     ],
-    "languages": [],
     "interests": [],
     "references": []
 }
