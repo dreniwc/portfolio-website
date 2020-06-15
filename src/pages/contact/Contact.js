@@ -11,16 +11,16 @@ function Contact() {
                     <div className="container">
                         <div className="page">
                             <p>Contact</p>
-                            <form name="contact" method="POST" data-netlify="true">
+                            <form name="contact" method="POST" data-netlify="true" action="/thank-you">
                                 <input type="hidden" name="form-name" value="contact" />
                                 <p>
-                                    <label>Your Name: <input type="text" name="name" /></label>
+                                    <label>Your Name: <input type="text" name="name" required /></label>
                                 </p>
                                 <p>
-                                    <label>Your Email: <input type="email" name="email" /></label>
+                                    <label>Your Email: <input type="email" name="email" required /></label>
                                 </p>
                                 <p>
-                                    <label>Message: <textarea name="message"></textarea></label>
+                                    <label>Message: <textarea name="message" required></textarea></label>
                                 </p>
                                 <p>
                                     <button type="submit">Send</button>

@@ -43,8 +43,8 @@ function App() {
               >
                 <Switch location={location}>
                   <Route exact path='/' component={() => (<Home user={user} />)}></Route>
-                  <Route exact path='/about' component={() => (<About user={user} />)} ></Route>
-                  <Route exact path='/contact' component={Contact} ></Route>
+                  <Route path='/about' component={() => (<About user={user} />)} ></Route>
+                  <Route path='/contact' component={Contact} ></Route>
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
