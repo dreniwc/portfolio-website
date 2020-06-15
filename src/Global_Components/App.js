@@ -56,7 +56,7 @@ function App() {
                   <Route exact path='/' component={() => (<Home user={user} />)}></Route>
                   <Route path='/about' component={() => (<About user={user} />)} ></Route>
                   <Route path='/contact' component={Contact} ></Route>
-                  <Route component={NoMatch} />
+                  <Route path="*" component={NoMatch} />
                 </Switch>
               </CSSTransition>
             </TransitionGroup>
