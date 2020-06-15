@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import '../Styles/app.scss'
 import Header from "./header"
 import { Switch, Route } from 'react-router-dom';
@@ -41,7 +41,7 @@ function App() {
                 timeout={300}
                 classNames="fade"
               >
-                <Switch location={location}> {/* The Switch decides which component to show based on the current URL.*/}
+                <Switch location={location}>
                   <Route exact path='/' component={() => (<Home user={user} />)}></Route>
                   <Route exact path='/about' component={About} ></Route>
                   <Route exact path='/contact' component={Contact} ></Route>
