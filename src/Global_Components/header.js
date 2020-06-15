@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from "./navbar"
 import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
 
-function Header() {
+function Header({ user }) {
     return (
         <header role="banner" className="borderColour">
             <div className="container">
@@ -12,8 +12,8 @@ function Header() {
                     </div>
                     <div className="headerLogo_name">
                         <div className="headerLogo_name-inner">
-                            <p className="headerName">Callum Dreniw</p>
-                            <p className="headerSubCopy">Web Developer, Designer And Optimisation Specialist</p>
+                            <p className="headerName">{user.basics.name}</p>
+                            <p className="headerSubCopy">{user.basics.headline}</p>
                         </div>
                     </div>
                 </div>
