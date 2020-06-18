@@ -9,10 +9,13 @@ function About({ user }) {
                 <div className="container">
                     <div className="page">
                         <p>About Me</p>
-                        <p>{user.about.line1}</p>
-                        <p>{user.about.line2}</p>
-                        <p>{user.about.line3}</p>
-
+                        {
+                            user.about.copy.split('\n').map((data, i) => {
+                                return (
+                                    <p key={i}>{data}</p>
+                                );
+                            })
+                        }
                         <p>Skills</p>
                         {
                             user.skills.map((data, i) => {

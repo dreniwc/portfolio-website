@@ -14,15 +14,11 @@ padding: 0.6rem;
 
 const Toggle = ({ theme, toggleTheme }) => {
     return (
-        <div className="themeSwitcher-container">
-            <div className="container">
-                <Button onClick={toggleTheme}>
-                    {theme === "light" ?
-                        <p>Dark Theme</p> : <p>Light Theme</p>
-                    }
-                </Button>
-            </div>
-        </div>
+        <Button onClick={toggleTheme}>
+            {theme === "light" ?
+                <p>Dark Theme</p> : <p>Light Theme</p>
+            }
+        </Button>
     );
 };
 

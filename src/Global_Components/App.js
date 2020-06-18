@@ -1,7 +1,7 @@
 import React from "react";
 import '../Styles/app.scss'
-import Header from "./header"
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { Switch, Route, useLocation, NavLink } from 'react-router-dom';
+import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
 
 import {
   CSSTransition,
@@ -9,7 +9,7 @@ import {
 } from 'react-transition-group';
 
 import { ThemeProvider } from "styled-components";
-import  {useDarkMode} from "../Global_Components/useDarkMode"
+import { useDarkMode } from "../Global_Components/useDarkMode"
 import { GlobalStyles } from "../Global_Components/globalStyles";
 import { lightTheme, darkTheme } from "../Global_Components/Themes"
 import Toggle from "../Global_Components/Toggler"
@@ -26,10 +26,10 @@ function App() {
   const [theme, themeToggler, mountedComponent] = useDarkMode();
 
   const themeMode = theme === 'light' ? lightTheme : darkTheme;
-  if(!mountedComponent) return <div/>
+  if (!mountedComponent) return <div />
   function NoMatch() {
     let location = useLocation();
-  
+
     return (
       <div>
         <h3>
@@ -43,8 +43,21 @@ function App() {
       <>
         <GlobalStyles />
         <div className="App">
-        <Toggle theme={theme} toggleTheme={themeToggler} />
-          <Header user={user} />
+          <header role="banner" className="borderColour">
+            <div className="container">
+              <div className="headerLogo_image">
+                <CDLogoBlack />
+              </div>
+              <nav role="navigation" id="skiptonav">
+                <ul>
+                  <li><NavLink to='/' exact>Home</NavLink></li>
+                  <li><NavLink to='/about'>About</NavLink></li>
+                  <li><NavLink to='/contact'>Contact</NavLink></li>
+                  <li><Toggle theme={theme} toggleTheme={themeToggler} /></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
           <Route render={({ location }) => (
             <TransitionGroup>
               <CSSTransition

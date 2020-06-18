@@ -30,10 +30,13 @@ function Home({ user }) {
                         <div className="quickIntro">
                             <div className="container">
                                 <div className="homeIntro">
-                                    <p>{user.about.into}</p>
-                                    <p>{user.about.line1}</p>
-                                    <p>{user.about.line2}</p>
-                                    <p>{user.about.line3}</p>
+                                    {
+                                        user.about.copy.split('\n').map((data, i) => {
+                                            return (
+                                                <p key={i}>{data}</p>
+                                            );
+                                        })
+                                    }
                                 </div>
                             </div>
                         </div>
