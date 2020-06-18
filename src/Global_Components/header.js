@@ -6,16 +6,8 @@ function Header({ user }) {
     return (
         <header role="banner" className="borderColour">
             <div className="container">
-                <div className="headerLogo">
-                    <div className="headerLogo_image">
-                        <CDLogoBlack />
-                    </div>
-                    <div className="headerLogo_name">
-                        <div className="headerLogo_name-inner">
-                            <p className="headerName">{user.basics.name}</p>
-                            <p className="headerSubCopy">{user.basics.headline}</p>
-                        </div>
-                    </div>
+                <div className="headerLogo_image">
+                    <CDLogoBlack />
                 </div>
                 <Navbar />
             </div>
