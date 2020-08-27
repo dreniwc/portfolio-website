@@ -48,14 +48,16 @@ function App() {
               <div className="headerLogo_image">
                 <CDLogoBlack />
               </div>
-              <nav role="navigation" id="skiptonav">
-                <ul>
-                  <li><NavLink to='/' exact>Home</NavLink></li>
-                  <li><NavLink to='/about'>About</NavLink></li>
-                  <li><NavLink to='/contact'>Contact</NavLink></li>
-                  <li><Toggle theme={theme} toggleTheme={themeToggler} /></li>
-                </ul>
-              </nav>
+              <div className="headerRightPanel">
+                <Toggle theme={theme} toggleTheme={themeToggler} />
+                <nav role="navigation" id="skiptonav">
+                  <ul>
+                    <li><NavLink to='/' exact>Home</NavLink></li>
+                    <li><NavLink to='/about'>About</NavLink></li>
+                    <li><NavLink to='/contact'>Contact</NavLink></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
           </header>
           <Route render={({ location }) => (
