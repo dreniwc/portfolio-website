@@ -1,12 +1,8 @@
 {
   "short_name": "Callum Dreniw",
-  "name": "Callum Dreniw | Web Developer &amp; Designer | Optimisation Specialist",
+  "name": "Callum Dreniw | Web Developer & Designer | Optimisation Specialist",
+  "description": "I am a highly motivated member of the conversion rate industry with a keen interest in solving problems. I relish the opportunity to learn new methods, techniques, and skills in and around my line of work. Settling for nothing less than the highest standard of work is imperative and engaging my initiative with any resources provided is of second nature to me.",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "logo192.png",
       "type": "image/png",
@@ -18,8 +14,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "start_url": "/?source=pwa",
+  "display": "fullscreen",
+  "theme_color": "#005a6a",
+  "background_color": "#fafafc"
 }
