@@ -9,7 +9,7 @@ function About({ user }) {
                 <div className="container">
                     <div className="page">
                         <p>About Me</p>
-                        <a href="../../public/callum_dreniw-cv.pdf" target="_blank">DOWNLOAD MY CV HERE</a>
+                        <a href="callum_dreniw-cv.pdf" target="_blank">DOWNLOAD MY CV HERE</a>
                         {/* {
                             user.about.copy.split('\n').map((data, i) => {
                                 return (
