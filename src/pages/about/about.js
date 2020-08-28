@@ -9,15 +9,16 @@ function About({ user }) {
                 <div className="container">
                     <div className="page">
                         <p>About Me</p>
-                        {
+                        <a href="../../public/callum_dreniw-cv.pdf" target="_blank">DOWNLOAD MY CV HERE</a>
+                        {/* {
                             user.about.copy.split('\n').map((data, i) => {
                                 return (
                                     <p key={i}>{data}</p>
                                 );
                             })
-                        }
-                        <p>Skills</p>
-                        {
+                        } */}
+                        {/* <p>Skills</p> */}
+                        {/* {
                             user.skills.map((data, i) => {
                                 return (
                                     <div key={i}>
@@ -25,9 +26,7 @@ function About({ user }) {
                                     </div>
                                 );
                             })
-                        }
-
-                        <p>Experience</p>
+                        } */}
                     </div>
                 </div>
             </main>
