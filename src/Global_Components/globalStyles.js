@@ -20,6 +20,9 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.secondaryBackground};
     color: ${({ theme }) => theme.secondaryText};
   }
+  .btn:hover {
+    background: ${({ theme }) => theme.hoverBackground};
+  }
   p.pageTitle {
     color: ${({ theme }) => theme.headertext};
   }
