@@ -42,6 +42,8 @@ class Contact extends React.Component {
                     <div className="container">
                         <div className="page">
                             <p className="pageTitle">Contact</p>
+                            <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="http://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailed me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
+                            <p>Contact Form</p>
                             <form onSubmit={this.handleSubmit} data-netlify="true">
                                 <p>
                                     <label>
