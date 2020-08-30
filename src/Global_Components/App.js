@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/app.scss'
-import { Switch, Route, useLocation, NavLink } from 'react-router-dom';
+import { Switch, Route, useLocation, NavLink, Link } from 'react-router-dom';
 import { ReactComponent as CDLogoBlack } from '../Assets/logoBlack.svg';
 
 import {
@@ -46,7 +46,7 @@ function App() {
           <header role="banner" className="borderColour">
             <div className="container">
               <div className="headerLogo_image">
-                <CDLogoBlack />
+                <Link to="/"><CDLogoBlack /></Link>
               </div>
               <div className="headerRightPanel">
                 <Toggle theme={theme} toggleTheme={themeToggler} />
