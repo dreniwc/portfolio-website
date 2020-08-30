@@ -49,7 +49,9 @@ function App() {
                 <Link to="/"><CDLogoBlack /></Link>
               </div>
               <div className="headerRightPanel">
-                <Toggle theme={theme} toggleTheme={themeToggler} />
+                <div className="headerThemeContainer">
+                  <Toggle theme={theme} toggleTheme={themeToggler} />
+                </div>
                 <nav role="navigation" id="skiptonav">
                   <ul>
                     <li><NavLink to='/' exact>Home</NavLink></li>

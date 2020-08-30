@@ -78,6 +78,16 @@ nav {
     }
 }
 
+.headerThemeContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
+}
+
+
 // @media (max-width: 767px) {
 //     .themeSwitcher-container {
 //         .container {

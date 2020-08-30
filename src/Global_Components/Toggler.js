@@ -8,7 +8,7 @@ background: ${({ theme }) => theme.background};
 border: 2px solid ${({ theme }) => theme.toggleBorder};
 color: ${({ theme }) => theme.buttonText};
 cursor: pointer;
-padding: 0.6rem;
+padding: 0.3rem;
   }
 `;
 
