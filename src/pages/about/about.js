@@ -9,17 +9,18 @@ function About({ user }) {
 
                 <section id="about" className="page">
                     <div className="container">
-                        <p>About Me</p>
-                        <a className="btn cv_btn" href="callum_dreniw-cv.pdf" target="_blank">Download my CV here</a>
-                        {/* {
+                        <p className="pageTitle">About Me</p>
+                        <p>{user.about.aboutMePageCopy}</p>
+                        <p><a className="btn cv_btn" href="callum_dreniw-cv.pdf" target="_blank">Download my CV here</a></p>
+                    {/* {
                             user.about.copy.split('\n').map((data, i) => {
                                 return (
                                     <p key={i}>{data}</p>
                                 );
                             })
                         } */}
-                        {/* <p>Skills</p> */}
-                        {/* {
+                    {/* <p>Skills</p> */}
+                    {/* {
                             user.skills.map((data, i) => {
                                 return (
                                     <div key={i}>
@@ -31,8 +32,8 @@ function About({ user }) {
                     </div>
                 </section>
             </main>
-            <Footer />
-        </div>
+        <Footer />
+        </div >
     )
 }
 

@@ -39,32 +39,29 @@ class Contact extends React.Component {
         return (
             <div className="wrapper">
                 <main role="main" id="skipnav">
-
-                    <div className="hero_outerContainer">
-                        <div className="container">
-                            <div className="page">
-                                <p>Contact</p>
-                                <form onSubmit={this.handleSubmit} data-netlify="true">
-                                    <p>
-                                        <label>
-                                            Your Name: <input required type="text" name="name" value={name} onChange={this.handleChange} />
-                                        </label>
-                                    </p>
-                                    <p>
-                                        <label>
-                                            Your Email: <input required type="email" name="email" value={email} onChange={this.handleChange} />
-                                        </label>
-                                    </p>
-                                    <p>
-                                        <label>
-                                            Message: <textarea required name="message" value={message} onChange={this.handleChange} />
-                                        </label>
-                                    </p>
-                                    <p>
-                                        <button type="submit">Send</button>
-                                    </p>
-                                </form>
-                            </div>
+                    <div className="container">
+                        <div className="page">
+                            <p className="pageTitle">Contact</p>
+                            <form onSubmit={this.handleSubmit} data-netlify="true">
+                                <p>
+                                    <label>
+                                        Your Name: <input required type="text" name="name" value={name} onChange={this.handleChange} />
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        Your Email: <input required type="email" name="email" value={email} onChange={this.handleChange} />
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        Message: <textarea required name="message" value={message} onChange={this.handleChange} />
+                                    </label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
+                            </form>
                         </div>
                     </div>
                 </main>

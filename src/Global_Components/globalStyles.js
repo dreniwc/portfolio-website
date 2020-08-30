@@ -20,8 +20,11 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.secondaryBackground};
     color: ${({ theme }) => theme.secondaryText};
   }
+  p.pageTitle {
+    color: ${({ theme }) => theme.headertext};
+  }
   svg.logoBlack {
     fill: ${({ theme }) => theme.svgBlack};
     stroke: ${({ theme }) => theme.svgBlack};
-}
+  }
   `

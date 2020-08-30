@@ -134,3 +134,15 @@ h6, .h6 {
   opacity: 0;
   transition: opacity 150ms linear;
 }
+
+.btn {
+  padding: 10px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+p.pageTitle {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
