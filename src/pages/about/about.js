@@ -6,10 +6,11 @@ function About({ user }) {
     return (
         <div className="wrapper">
             <main role="main" id="skipnav">
-                <div className="container">
-                    <div className="page">
+
+                <section id="about" className="page">
+                    <div className="container">
                         <p>About Me</p>
-                        <a href="callum_dreniw-cv.pdf" target="_blank">DOWNLOAD MY CV HERE</a>
+                        <a className="btn cv_btn" href="callum_dreniw-cv.pdf" target="_blank">Download my CV here</a>
                         {/* {
                             user.about.copy.split('\n').map((data, i) => {
                                 return (
@@ -28,7 +29,7 @@ function About({ user }) {
                             })
                         } */}
                     </div>
-                </div>
+                </section>
             </main>
             <Footer />
         </div>

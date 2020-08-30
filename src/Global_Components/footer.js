@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="borderColour">
+        <footer>
             <p>&copy; {(new Date().getFullYear())} Callum Dreniw - All Rights Reserved </p>
         </footer >
     )

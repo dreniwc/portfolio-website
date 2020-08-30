@@ -16,6 +16,10 @@ export const GlobalStyles = createGlobalStyle`
   .borderColour {
     border-color: ${({ theme }) => theme.borderColour};
   }
+  .btn {
+    background: ${({ theme }) => theme.secondaryBackground};
+    color: ${({ theme }) => theme.secondaryText};
+  }
   svg.logoBlack {
     fill: ${({ theme }) => theme.svgBlack};
     stroke: ${({ theme }) => theme.svgBlack};
