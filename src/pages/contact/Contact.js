@@ -23,8 +23,8 @@ class Contact extends React.Component {
             body: encode({ "form-name": "contact", ...this.state })
         })
             .then(() => {
-                alert("Success!")
                 console.warn('Success!')
+                this.confirmForm();
             }
             )
             .catch(error => alert(error));
@@ -34,8 +34,13 @@ class Contact extends React.Component {
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
+    confirmForm() {
+        console.log('confirm form function');
+        this.setState({confirmation: "submissionSuccessful"})
+    }
+
     render() {
-        const { name, email, message } = this.state;
+        const { name, email, message, confirmation } = this.state;
         return (
             <div className="wrapper">
                 <main role="main" id="skipnav">
@@ -63,6 +68,7 @@ class Contact extends React.Component {
                                 <p>
                                     <button type="submit">Send</button>
                                 </p>
+                                <p id="validationMessage" className={confirmation}>confirmation:</p>
                             </form>
                         </div>
                     </div>
