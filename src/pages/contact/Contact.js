@@ -36,7 +36,7 @@ class Contact extends React.Component {
 
     confirmForm() {
         console.log('confirm form function');
-        this.setState({confirmation: "submissionSuccessful"})
+        this.setState({ confirmation: "submissionSuccessful" })
     }
 
     render() {
@@ -47,27 +47,24 @@ class Contact extends React.Component {
                     <div className="container">
                         <div className="page">
                             <p className="pageTitle">Contact</p>
-                            <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="http://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailed me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
-                            <p>Contact Form</p>
+                            <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="https://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailed me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
                             <form onSubmit={this.handleSubmit} data-netlify="true">
-                                <p>
-                                    <label>
-                                        Your Name: <input required type="text" name="name" value={name} onChange={this.handleChange} />
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        Your Email: <input required type="email" name="email" value={email} onChange={this.handleChange} />
-                                    </label>
-                                </p>
-                                <p>
-                                    <label>
-                                        Message: <textarea required name="message" value={message} onChange={this.handleChange} />
-                                    </label>
-                                </p>
-                                <p>
+                                <div className="formElement">
+                                    <label  htmlFor="formName">Your Name: </label>
+                                    <input required type="text" name="name" id="formName" autoComplete="name" autoCorrect="off" autoCapitalize="off" value={name} onChange={this.handleChange} />
+
+                                </div>
+                                <div className="formElement">
+                                    <label htmlFor="formEmail">Your Email: </label>
+                                    <input required type="email" name="email" id="formEmail" autoComplete="email" value={email} onChange={this.handleChange} />
+                                </div>
+                                <div className="formElement">
+                                    <label htmlFor="formText">Message: </label>
+                                    <textarea required name="message" id="formText" rows="3" spellCheck="true" autoCapitalize="sentences" value={message} onChange={this.handleChange} />
+                                </div>
+                                <div className="formElement">
                                     <button type="submit">Send</button>
-                                </p>
+                                </div>
                                 <p id="validationMessage" className={confirmation}>Thank you for your message, I will be in contact.</p>
                             </form>
                         </div>
