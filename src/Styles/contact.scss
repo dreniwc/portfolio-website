@@ -1,0 +1,9 @@
+p#validationMessage {
+    display: none;
+    color: #005a6a;
+    font-weight: bold;
+}
+
+p#validationMessage.submissionSuccessful {
+    display: block;
+}

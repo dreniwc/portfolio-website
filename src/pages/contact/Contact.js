@@ -68,7 +68,7 @@ class Contact extends React.Component {
                                 <p>
                                     <button type="submit">Send</button>
                                 </p>
-                                <p id="validationMessage" className={confirmation}>confirmation:</p>
+                                <p id="validationMessage" className={confirmation}>Thank you for your message, I will be in contact.</p>
                             </form>
                         </div>
                     </div>
