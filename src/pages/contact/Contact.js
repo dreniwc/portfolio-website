@@ -47,7 +47,7 @@ class Contact extends React.Component {
                     <div className="container">
                         <div className="page">
                             <p className="pageTitle">Contact</p>
-                            <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="https://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailed me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
+                            <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="https://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailing me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
                             <form onSubmit={this.handleSubmit} data-netlify="true">
                                 <div className="formElement">
                                     <label  htmlFor="formName">Your Name: </label>
@@ -63,7 +63,7 @@ class Contact extends React.Component {
                                     <textarea required name="message" id="formText" rows="3" spellCheck="true" autoCapitalize="sentences" value={message} onChange={this.handleChange} />
                                 </div>
                                 <div className="formElement">
-                                    <button type="submit">Send</button>
+                                    <button type="submit" className="btn">Send</button>
                                 </div>
                                 <p id="validationMessage" className={confirmation}>Thank you for your message, I will be in contact.</p>
                             </form>
