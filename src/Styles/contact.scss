@@ -4,8 +4,13 @@ p#validationMessage {
     font-weight: bold;
 }
 
-p#validationMessage.submissionSuccessful {
-    display: block;
+.submissionSuccessful {
+    p#validationMessage {
+        display: block;
+    }
+    .formElement {
+        display: none;
+    }
 }
 
 input,textarea {

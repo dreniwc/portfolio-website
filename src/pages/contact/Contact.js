@@ -48,7 +48,7 @@ class Contact extends React.Component {
                         <div className="page">
                             <p className="pageTitle">Contact</p>
                             <p>Please feel free to get in touch and contact me using the form below, messaging me on <a href="https://uk.linkedin.com/pub/callum-dreniw/">LinkedIn</a> or by emailing me directly at <a href="mailto:callumdreniw@outlook.com">callumdreniw@outlook.com</a>.</p>
-                            <form onSubmit={this.handleSubmit} data-netlify="true">
+                            <form onSubmit={this.handleSubmit} data-netlify="true" className={confirmation}>
                                 <div className="formElement">
                                     <label  htmlFor="formName">Your Name: </label>
                                     <input required type="text" name="name" id="formName" autoComplete="name" autoCorrect="off" autoCapitalize="off" value={name} onChange={this.handleChange} />
@@ -65,7 +65,7 @@ class Contact extends React.Component {
                                 <div className="formElement">
                                     <button type="submit" className="btn">Send</button>
                                 </div>
-                                <p id="validationMessage" className={confirmation}>Thank you for your message, I will be in contact.</p>
+                                <p id="validationMessage">Thank you for your message, I will be in contact.</p>
                             </form>
                         </div>
                     </div>
